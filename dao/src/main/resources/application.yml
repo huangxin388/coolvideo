@@ -1,0 +1,8 @@
+#Mybatis
+mybatis:
+  #加载mybatis主要配置类
+  config-location: classpath:/mybatis-config.xml
+  #加载mapper配置类
+  mapper-locations: classpath:/mapper/*.xml
+  #加载mapper实体类
+  type-aliases-package: com.bupt.dao.entity
